@@ -15,6 +15,7 @@ app.get('/', (req, res) => {
     mysql: {
       connected: dbStatus.connected,
     },
+    env: process.env
   });
 });
 
